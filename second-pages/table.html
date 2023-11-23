@@ -3,58 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <title>Таблиця змагань</title>
-  <style>
-    table, td {
-      border: 2px solid black;
-    }
-    td {
-      height: 100px;
-      width: 100px;
-    }
-    tr {
-      background: rgb(87, 98, 18);
-    }
-  </style>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
-<body style=" background-image: url(../img/compet.jpg); background-repeat: no-repeat; background-size: cover;">
-  <div style="width: 1200px; margin: 0 auto;  text-align: center;">
-    <table style="width: 600px; margin: 50px auto;">
-      <caption style="font-size: 20px; font-weight: 900; text-transform: uppercase; margin-bottom: 40px;">Таблиця змагань</caption>
+<body class="table">
+  <div class="container table">
+    <table>
+      <caption>Таблиця змагань</caption>
       <tbody>
         <tr>
-          <td colspan="2" style="background: grey;">1</td>
+          <td colspan="2" class="tdata">1</td>
           <td>2</td>
           <td>3</td>
           <td>4</td>
-          <td rowspan="3" style="background: rgb(35, 194, 52);">5</td>
+          <td rowspan="3" class="tdata green">5</td>
         </tr>
         <tr>
-          <td rowspan="2" style="background: rgb(21, 67, 18);">7</td>
+          <td rowspan="2" class="tdata dark">7</td>
           <td>8</td>
-          <td rowspan="2" colspan="3" style="background: rgb(250, 194, 52);">9</td>
+          <td rowspan="2" colspan="3" class="tdata yellow">9</td>
         </tr>
         <tr>
           <td>13</td>
         </tr>
         <tr>
-          <td rowspan="2" colspan="3" style="background: rgb(0, 0, 255);">19</td>
+          <td rowspan="2" colspan="3" class="tdata blue">19</td>
           <td>20</td>
           <td>21</td>
-          <td rowspan="2" style="background: rgb(21, 67, 18);">22</td>
+          <td rowspan="2" class="tdata dark">22</td>
         </tr>
         <tr>
-          <td colspan="2" style="background: grey;">25</td>
+          <td colspan="2" class="tdata">25</td>
         </tr>
         <tr>
           <td>Y</td>
-          <td colspan="2" style="background: greenyellow;">X</td>
-          <td colspan="3" style="background: green;">A</td>
+          <td colspan="2" class="tdata yellow">X</td>
+          <td colspan="3" class="tdata green">A</td>
         </tr>
       </tbody>
     </table>
 
-    <div style="background: rgb(0, 60, 101, 0.8);">
-      <a href="../index.html" style="text-transform: uppercase; font-weight: 900; color: rgb(185, 43, 140); font-size: 20px;">На головну</a>
+    <div class="box link">
+      <a href="../index.html" class="link table">На головну</a>
     </div>
 
   </div>

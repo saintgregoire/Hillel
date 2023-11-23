@@ -1,1 +1,70 @@
-@import url('reset.css');
+/* @import url('reset.css'); */
+
+table, td {
+  border: 2px solid black;
+}
+
+td {
+  height: 100px;
+  width: 100px;
+}
+
+tr {
+  background: rgb(87, 98, 18);
+}
+
+body.table {
+  background-image: url(../img/compet.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container.table {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  width: 600px;
+  margin: 50px auto;
+}
+
+caption {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.tdata {
+  background: grey;
+}
+
+.tdata.green {
+background: rgb(35, 194, 52);
+}
+
+.tdata.dark {
+  background: rgb(21, 67, 18);
+}
+
+.tdata.yellow {
+  background: rgb(250, 194, 52)
+}
+
+.tdata.blue {
+  background: rgb(0, 0, 255);
+}
+
+.box.link {
+  background: rgb(0, 60, 101, 0.8);
+}
+
+.link.table {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: rgb(185, 43, 140);
+  font-size: 20px;
+}
+
