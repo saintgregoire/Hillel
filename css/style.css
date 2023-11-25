@@ -26,8 +26,6 @@ body.table {
 }
 
 .container.table {
-  width: 1200px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -88,6 +86,7 @@ body {
   font-size: 20px;
   vertical-align: middle;
   background-color: azure;
+  line-height: 1.5;
 }
 
 h1.head {
@@ -106,13 +105,13 @@ h2 {
   color: brown;
 }
 
-p.footer {
+p.down {
   background: yellow;
   text-transform: uppercase;
   color: red;
 }
 
-p.footer + .link.footer {
+p.down + .link.down {
   color:brown;
   text-transform: uppercase;
 }
@@ -129,4 +128,13 @@ h1 {
 
 div > h2 ~ p > span {
   font-weight: 900;
+}
+
+img {
+  display: inline-block;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
